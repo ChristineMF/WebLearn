@@ -7,7 +7,7 @@
         function getData(pageName){
             //XMLHttpRequest 物件專門用來和伺服器做連線
             var req=new XMLHttpRequest();
-            req.open("get","http://127.0.0.1:8887/"+pageName);//（連線的方法為get,你想要取得的連線的網址）
+            req.open("get","https://christinemf.github.io/WebLearn/"+pageName);//（連線的方法為get,你想要取得的連線的網址）
             req.onload=function(){//load事件，偵測連線的狀態結束
                 //連線完成
                 var content=document.getElementById("content");
